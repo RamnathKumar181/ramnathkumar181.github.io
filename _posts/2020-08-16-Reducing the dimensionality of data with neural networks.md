@@ -1,0 +1,23 @@
+---
+layout: post
+title:  Reducing the dimensionality of data with neural networks
+published: true
+---
+
+An overview of the paper “[Reducing the dimensionality of data with neural networks](http://www.cs.toronto.edu/~hinton/science.pdf)”.
+<!--break-->
+
+High-dimensional data can be converted to low-dimensional codes by training a multilayer neural network with a small central layer to reconstruct high-dimensional input vectors. Gradient descent can be used for fine-tuning the weights in such ‘‘autoencoder’’ networks, but this works well only if the initial weights are close to a good solution. It is difficult to optimize the weights in nonlinear autoencoders that have multiple hidden layers. Furthermore, with large initial weights, autoencoders typically find poor local minima; with small initial weights, the gradients in the early layers are tiny, making it infeasible to train autoencoders with many hidden layers.
+
+The paper's proposes an effective way of initializing the weights that allows deep autoencoder networks to learn low-dimensional codes that work much better than principal components analysis as a tool to reduce the dimensionality of data. All images and tables in this post are from their paper.
+
+
+## Restricted Boltzmann Machine
+
+A restricted Boltzmann machine (RBM) is a generative stochastic artificial neural network that can learn a probability distribution over its set of inputs. As their name implies, RBMs are a variant of Boltzmann machines, with the restriction that their neurons must form a bipartite graph: a pair of nodes from each of the two groups of units (commonly referred to as the "visible" and "hidden" units respectively) may have a symmetric connection between them; and there are no connections between nodes within a group.
+In short, the RBM is going to define a distribution over <img src="https://latex.codecogs.com/svg.latex?v" title="v" />, and that distribution is actually going to involve some latent variables which correspond to your binary hidden units <img src="https://latex.codecogs.com/svg.latex?h" title="h" />.
+The canonical RBM is an energy-based model with binary visible and hidden units. Its energy function is: <img src="https://latex.codecogs.com/svg.latex?E(v,h)&space;=&space;-\sum&space;_{i\in&space;\mathit{pixels}}b_iv_i&space;-&space;\sum&space;_{j\in&space;\mathit{pixels}}b_jh_j&space;-\sum&space;_{i,j}v_ih_jW_{i,j}" title="E(v,h) = -\sum _{i\in \mathit{pixels}}b_iv_i - \sum _{j\in \mathit{pixels}}b_jh_j -\sum _{i,j}v_ih_jW_{i,j}" />, where <img src="https://latex.codecogs.com/svg.latex?v_i" title="v_i" /> and <img src="https://latex.codecogs.com/svg.latex?h_j" title="h_j" /> are the binary states of pixel <img src="https://latex.codecogs.com/svg.latex?i" title="i" /> and feature <img src="https://latex.codecogs.com/svg.latex?j" title="j" />, <img src="https://latex.codecogs.com/svg.latex?b_i" title="b_i" /> and <img src="https://latex.codecogs.com/svg.latex?b_j" title="b_j" /> are their biases, and <img src="https://latex.codecogs.com/svg.latex?w_{i,j}" title="w_{i,j}" /> is the weight between them. Once we obtain the energy function, we can define the <img src="https://latex.codecogs.com/svg.latex?p(v,h)&space;=&space;\exp(E(v,h))/Z" title="p(v,h) = \exp(E(v,h))/Z" />, where <img src="https://latex.codecogs.com/svg.latex?Z" title="Z" /> is partition function and is intractable (to normalize probability between 0 and 1). Note that, <img src="https://latex.codecogs.com/svg.latex?h" title="h" /> is conditionally independent given <img src="https://latex.codecogs.com/svg.latex?v" title="v" />. Hence, <img src="https://latex.codecogs.com/svg.latex?p(h|v)&space;=&space;p(h_1|v)*...*p(h_n|v)" title="p(h|v) = p(h_1|v)*...*p(h_n|v)" />. Furthermore, <img src="https://latex.codecogs.com/svg.latex?p(h_j=1|v)&space;=&space;\sigma&space;(b_j&plus;\sum&space;_iv_iw_{ij})" title="p(h_j=1|v) = \sigma (b_j+\sum _iv_iw_{ij})" /> and <img src="https://latex.codecogs.com/svg.latex?p(v_j=1|h)&space;=&space;\sigma&space;(c_k&plus;\sum&space;_jh_j^Tw_{kj})" title="p(v_j=1|h) = \sigma (c_k+\sum _jh_j^Tw_{kj})" />. The exact proof is better explained in Hugo Larochelle's lecture : [Link](https://www.youtube.com/watch?v=lekCh_i32iE)
+
+## Pre-training
+
+Pretraining consists of learning a stack of restricted Boltzmann machines (RBMs), each having only one layer of feature detectors. The learned feature activations of one RBM are used as the data for training the next RBM in the stack. After the pretraining, the RBMs are decoded to create a deep autoencoder, which is then fine-tuned using backpropagation of error derivatives. This has proven to start off at a good initialization and would decrease the probability of the network falling in bad local minima.

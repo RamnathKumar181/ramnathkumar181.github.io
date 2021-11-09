@@ -1,0 +1,14 @@
+---
+layout: default
+permalink: /archive/
+---
+
+<div class="posts">
+    <ul>
+        {% for post in site.posts %}
+
+            <li> <span class="small"> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%B %e, %Y" }})</span> </li>
+
+  {% endfor %}
+  </ul>
+</div>
