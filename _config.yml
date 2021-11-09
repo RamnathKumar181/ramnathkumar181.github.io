@@ -9,7 +9,7 @@ name: Ramnath Kumar
 description: Undergraduate Student
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/images/logo.jpg
+avatar: ./images/logo.jpg
 
 #
 # Flags below are optional
