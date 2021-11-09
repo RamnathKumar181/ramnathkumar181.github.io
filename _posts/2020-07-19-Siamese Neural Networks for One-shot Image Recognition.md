@@ -17,5 +17,5 @@ computes the same function. Also, the network is symmetric, so that whenever we 
 <b>The architecute of convolutional siamese neural network for few-shot image classification.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/19/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/19/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>

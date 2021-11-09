@@ -27,7 +27,7 @@ The authors train a multi-task setup, where the task id is given as one-hot inpu
 <b>Summary of proposed approach.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/1/Figure-4.png?raw=true" alt="Figure 4"/>
+<img src="/assets/Papers/1/Figure-4.png?raw=true" alt="Figure 4"/>
 </p>
 
 ### Policy Learning via a Variational Bound on Entropy Regularized RL

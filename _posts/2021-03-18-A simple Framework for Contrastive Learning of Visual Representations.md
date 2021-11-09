@@ -17,7 +17,7 @@ The authors show the following points in the paper:
 <b>Summary of proposed Approach.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/13/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/13/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 ## Method

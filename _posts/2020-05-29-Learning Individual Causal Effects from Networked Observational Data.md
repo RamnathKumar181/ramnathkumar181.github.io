@@ -27,7 +27,7 @@ An introduction of the background knowledge of learning individual causal effect
 <b>Workflow of proposed framework.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/7/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/7/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 ## Network Deconfounder
@@ -70,5 +70,5 @@ This paper has opened two new research problems:
 <b>Experimental Results comparing effectiveness of the proposed network deconfounder with the baseline methods.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/7/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/7/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>

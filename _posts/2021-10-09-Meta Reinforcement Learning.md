@@ -23,7 +23,7 @@ Usually the train and test tasks are different but drawn from the same family of
 <b>Illustration of meta-RL, containing two optimization loops. The outer loop samples a new environment in every iteration and adjusts parameters that determine the agent’s behavior. In the inner loop, the agent interacts with the environment and optimizes for the maximal reward.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/33/Figure-7.png?raw=true" alt="Figure 7"/>
+<img src="/assets/Papers/33/Figure-7.png?raw=true" alt="Figure 7"/>
 </p>
 
 ## Connection to Contextual Policies
@@ -34,7 +34,7 @@ Contextual policy is a policy that is conditioned on some context <img src="http
 <b>Connections to contextual policies</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/33/Figure-2.jpeg?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/33/Figure-2.jpeg?raw=true" alt="Figure 2"/>
 </p>
 
 You could view meta-RL as contextual policies with data as context. In meta-RL, the rewards allow you to adapt to any task, even if that task is not a goal reaching task. In that way, these rewards are strict to generalization of goal-based tasks. Furthermore Contextual policies can be viewed as a 0-shot problem, where the goal is to generalize to new goals, rather than adapting to new ones.
@@ -51,7 +51,7 @@ The design of <img src="https://latex.codecogs.com/svg.latex?f" title="f" /> cou
 <b>General working of Reinforcement Learning</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/33/Figure-1.jpeg?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/33/Figure-1.jpeg?raw=true" alt="Figure 1"/>
 </p>
 
 Note that, this takes as input the reward at previous timestep, which is important when we want to adapt to different reward functions. Another difference is that the hidden layers are not maintained across episodes, in order to facilitate easy adaptation to new tasks.
@@ -67,7 +67,7 @@ However, this idea cannot be directly implemented in the few-shot setting. Suppo
 <b>Optimization-based models</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/33/Figure-3.jpeg?raw=true" alt="Figure 3"/>
+<img src="/assets/Papers/33/Figure-3.jpeg?raw=true" alt="Figure 3"/>
 </p>
 
 The idea is to reach an optima where fine-tuning to each task is easy, and close, as shown in the highlighted version above. These methods have an inductive bias of SGD built in. They are also model-agnostic, and could be integrated with any architecture. One issue is that RL gradients (policy gradients, or Bellman error) are often not very informative.
@@ -92,7 +92,7 @@ Another solution is to leverage alternative exploration strategies.
 <b>Posterior sampling</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/33/Figure-4.jpeg?raw=true" alt="Figure 4"/>
+<img src="/assets/Papers/33/Figure-4.jpeg?raw=true" alt="Figure 4"/>
 </p>
 
 This strategy might not be optimal. Suppose the goal is far away, and there is a sign indicating the path to the sign. The posterior sampling model would not look at the sign, and simply sample goals. The optimal strategy would be to look at the sign.
@@ -110,7 +110,7 @@ This can be theoretically proved to be similar to Solution \#0.
 <b>Decoupled Reward-free ExplorAtion and Execution in Meta-reinforcement learning(DREAM)</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/33/Figure-5.jpeg?raw=true" alt="Figure 5"/>
+<img src="/assets/Papers/33/Figure-5.jpeg?raw=true" alt="Figure 5"/>
 </p>
 
 ## Main Differences from RL
@@ -131,7 +131,7 @@ The training procedure works as follows:
 <b>, Illustration of the procedure of the model interacting with a series of MDPs in training time in RL^2 model.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/33/Figure-6.png?raw=true" alt="Figure 6"/>
+<img src="/assets/Papers/33/Figure-6.png?raw=true" alt="Figure 6"/>
 </p>
 
 
@@ -230,7 +230,7 @@ In addition, the loss function includes the KL divergence between the learned la
 <b>The policy is conditioned on a latent variable variable <img src="https://latex.codecogs.com/svg.latex?z_i&space;\sim&space;\mathcal{N}(\mu,&space;\sigma)" title="z_i \sim \mathcal{N}(\mu, \sigma)" /> that is sampled once every episode. Each task has different hyperparameters for the latent variable distribution, (\mu_i, \sigma_i) and they are optimized in the outer loop. </b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/33/Figure-7.png?raw=true" alt="Figure 7"/>
+<img src="/assets/Papers/33/Figure-7.png?raw=true" alt="Figure 7"/>
 </p>
 
 ### Episodic Control
@@ -259,7 +259,7 @@ The episodic memory in NEC is Differentiable Neural Dictionary (DND), where the 
 <b>Illustrations of episodic memory module in NEC an two operations on a differentiable neural dictionary.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/33/Figure-8.png?raw=true" alt="Figure 8"/>
+<img src="/assets/Papers/33/Figure-8.png?raw=true" alt="Figure 8"/>
 </p>
 
 Further, **Episodic LSTM** enhances the basic LSTM achitecture with a DND episodic memory, which stores task context embeddings as keys and the LSTM cell states as values. The stored hidden states are retrieved and added directly to the current cell state through the same gating mechanism within LSTM:
@@ -268,7 +268,7 @@ Further, **Episodic LSTM** enhances the basic LSTM achitecture with a DND episod
 <b>Illustrations of episodic LSTM architecture. The additional structure of episodic memory is in bold.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/33/Figure-9.png?raw=true" alt="Figure 9"/>
+<img src="/assets/Papers/33/Figure-9.png?raw=true" alt="Figure 9"/>
 </p>
 
 The architecture provides a shortcut to the prior experience through context-based retrieval. Meanwhile, explicitly saving the task-dependent experience in an external memory avoids forgetting. In the paper, all experiments have manually designed context vectors. How to construct an effective and efficient format of task context embeddings for more free-formed tasks would be an interesting topic.
@@ -302,7 +302,7 @@ The procedure above is quite similar to PBT, but PBT mutates and evolves hyperpa
 <b>An example bipedal walking environment(top) and an overview of POET(bottom).</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/33/Figure-10.png?raw=true" alt="Figure 10"/>
+<img src="/assets/Papers/33/Figure-10.png?raw=true" alt="Figure 10"/>
 </p>
 
 ### Learning with Random Rewards
@@ -338,7 +338,7 @@ Once the discriminator is learned, sampling a new MDP for training is straight-f
 <b>DIAYN Algorithm.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/33/Figure-11.png?raw=true" alt="Figure 11"/>
+<img src="/assets/Papers/33/Figure-11.png?raw=true" alt="Figure 11"/>
 </p>
 
 ## Challenges & Latest Developments

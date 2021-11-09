@@ -59,7 +59,7 @@ which is intuitively similar to computing <img src="https://latex.codecogs.com/s
 <b>Graph Convolutional Network</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/9/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/9/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 Now, all that's left is to define a loss function and update <img src="https://latex.codecogs.com/svg.latex?\Theta" title="\Theta" /> using backpropagation and gradient descent.
@@ -68,5 +68,5 @@ Now, all that's left is to define a loss function and update <img src="https://l
 <b>Hidden Layer Activations using TSNE</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/9/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/9/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>

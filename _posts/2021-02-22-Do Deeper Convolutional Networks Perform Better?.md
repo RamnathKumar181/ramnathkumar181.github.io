@@ -16,7 +16,7 @@ Traditional statistical learning theory argues that over-parameterized models wi
 <b>Experimental Results</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/8/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/8/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 ### Bias vs Variance in CNN
@@ -36,7 +36,7 @@ Here, the model is purely made of convolutional layers, batchnorm and non linear
 <b>Train and test accuracy of the Fully-Conv Net as a function of depth, for CIFAR10 input images.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/8/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/8/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>
 
 ### With Modern Deep learning Methods
@@ -47,7 +47,7 @@ Similar to previous experiment, increasing depth beyond a critical point, leads 
 <b>Train and Test losses of the ResNet models for all widths.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/8/Figure-3.png?raw=true" alt="Figure 3"/>
+<img src="/assets/Papers/8/Figure-3.png?raw=true" alt="Figure 3"/>
 </p>
 
 ## The Role of Depth in Linear Neural Networks
@@ -59,5 +59,5 @@ Here, the authors provide an example where fully connected networks do not gener
 operators of decreasing L2 norm, which manifests as a decrease in test accuracy.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/8/Figure-4.png?raw=true" alt="Figure 4"/>
+<img src="/assets/Papers/8/Figure-4.png?raw=true" alt="Figure 4"/>
 </p>

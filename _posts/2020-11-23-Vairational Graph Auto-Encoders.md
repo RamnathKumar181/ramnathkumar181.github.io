@@ -26,5 +26,5 @@ Both VGAE and GAE achieve competitive results on the featureless task. Adding in
 <b>Link prediction task in citation networks</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/10/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/10/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>

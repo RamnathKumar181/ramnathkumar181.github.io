@@ -29,7 +29,7 @@ As with prior few-shot learning work, we will assume that before being presented
 <b>Workflow of proposed framework.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/12/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/12/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 ## Approach
@@ -47,7 +47,7 @@ where <img src="https://latex.codecogs.com/svg.latex?l_{unlabeled}" title="l_{un
 <b>t-SNE plot of EuroSAT and CropDisease prior to and after model.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/12/Figure-3.png?raw=true" alt="Figure 3"/>
+<img src="/assets/Papers/12/Figure-3.png?raw=true" alt="Figure 3"/>
 </p>
 
 ## Evaluation
@@ -58,5 +58,5 @@ Here, we freeze the representations <img src="https://latex.codecogs.com/svg.lat
 <b>Performance of the model on different datasets.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/12/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/12/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>

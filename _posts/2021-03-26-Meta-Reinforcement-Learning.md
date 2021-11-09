@@ -17,7 +17,7 @@ In reinforcement learning, we deal with a markov decision process. This is defin
 <b>Every RL algorithm in a nutshell.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/24/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/24/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 ## Meta Reinforcement Learning
@@ -72,7 +72,7 @@ In this equation, the first term maximizes post-update reward (same as meta-RL i
 <b>Posterior Sampling.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/24/Figure-2.gif?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/24/Figure-2.gif?raw=true" alt="Figure 2"/>
 </p>
 
 ## Three perspectives on meta-RL
@@ -101,7 +101,7 @@ A consistent meta-learner will converge to a (locally) optimal solution on any n
 <b>Learning performance on o.o.d tasks. (SNAIL and Meta-Net are Meta-learners, and MAML is optimization based)</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/24/Figure-3.png?raw=true" alt="Figure 3"/>
+<img src="/assets/Papers/24/Figure-3.png?raw=true" alt="Figure 3"/>
 </p>
 
 Besides using methods that are not prone to overfitting, we could propose new tasks automatically. This would lead to an <b>unsupervised meta-learning algorithm</b>. These algorithms learn to solve tasks efficiently, without using hand-specified labels during meta-training. For example, the data could be clustered to form tasks which are then fed to the meta-learning algorithm.

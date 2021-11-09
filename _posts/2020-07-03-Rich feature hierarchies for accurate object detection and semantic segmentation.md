@@ -24,5 +24,5 @@ At test time, they run a selective search on the test image to extract around 20
 <b>Object Detection system overview.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/32/Figure-1.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/32/Figure-1.png?raw=true" alt="Figure 2"/>
 </p>

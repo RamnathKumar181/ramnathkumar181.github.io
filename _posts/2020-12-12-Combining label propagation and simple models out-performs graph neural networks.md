@@ -27,7 +27,7 @@ The approach starts with a simple base predictor on node features, which does no
 <b>Overview of the Correct and Smooth model.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/11/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/11/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 ### Simple base predictor
@@ -53,5 +53,5 @@ At this point, we have a score vector <img src="https://latex.codecogs.com/gif.l
 <b>Performance of the C&S model on different datasets.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/11/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/11/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>

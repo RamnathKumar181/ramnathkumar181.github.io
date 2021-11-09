@@ -29,5 +29,5 @@ The total loss is defined as weighted sum of the content loss and style loss. Th
 <b>Examples of Images that combine content with style of various well-known artworks.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/30/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/30/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>

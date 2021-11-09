@@ -11,7 +11,7 @@ The author proposes an approach to generate adversarial patches to targets with 
 <b>An adversarial patch that is successfully able to hide persons.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/4/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/4/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 ## Generating adversarial patches against person detectors
@@ -45,7 +45,7 @@ We need to first run the target person detector over our dataset of images. This
 <b> Overview of the pipeline to get the object loss.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/4/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/4/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>
 
 The authors show that, if we combine this technique with a sophisticated clothing simulation, we can design a T-shirt print that can make a person virtually invisible for automatic surveillance cameras (using the YOLO detector).

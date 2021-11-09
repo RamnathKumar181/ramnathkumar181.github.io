@@ -16,7 +16,7 @@ The motivation behind this paper is quite straightforward. In image recognition,
 <b>Brief Overview of Methodology</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/25/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/25/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 Selection of the image regions fed to the network at training time and testing time, with typical data-augmentation. The red region of classification is resampled as a crop that is fed to the neural net. For objects that have as similar size in the input image, like the white horse, the standard augmentations typically make them larger at training time than at test time (second column). To counter this effect, we either reduce the train-time resolution, or increase the test-time resolution (third and fourth column). The horse then has the same size at train and test time, requiring less scale invariance for the neural net. This approach only needs a computationally cheap fine-tuning.
@@ -53,7 +53,7 @@ In addition to affecting the apparent size of objects, pre-processing also affec
 <b>Cumulative density function of the vectors components on output of spatial average pooling operator.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/25/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/25/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>
 
 ### Larger test crops result in better accuracy
@@ -63,7 +63,7 @@ Despite the fact that increasing the crop size affects the activation statistics
 <b>Top-1 accuracy of the ResNet-50 according to the test time resolution</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/25/Figure-3.png?raw=true" alt="Figure 3"/>
+<img src="/assets/Papers/25/Figure-3.png?raw=true" alt="Figure 3"/>
 </p>
 
 ## Methodology

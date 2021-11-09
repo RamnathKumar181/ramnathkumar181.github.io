@@ -40,5 +40,5 @@ This architecture is similar to CBOW, but instead of predicting the current word
 <b>New model architectures. The CBOW architecture predicts the current word based on the context, and the Skip-gram predicts surrounding words given the current word.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/2/Figure-3.png?raw=true" alt="Figure 3"/>
+<img src="/assets/Papers/2/Figure-3.png?raw=true" alt="Figure 3"/>
 </p>

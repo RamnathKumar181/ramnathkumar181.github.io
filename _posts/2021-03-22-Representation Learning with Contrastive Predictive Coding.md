@@ -43,7 +43,7 @@ By using a density ratio <img src="https://latex.codecogs.com/svg.latex?f(x_{t&p
 <b>Overview of Contrastive Predictive Coding.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/17/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/17/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 ### InfoNCE Loss and Mutual Information Estimation

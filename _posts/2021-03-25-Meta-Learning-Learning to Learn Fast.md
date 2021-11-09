@@ -48,7 +48,7 @@ This is very similar to a normal learning task, but one dataset is considered as
 <b>An example for 2-way 4-shot image classification.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/19/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/19/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 ### Training in the same way as testing
@@ -93,7 +93,7 @@ Here, meta-training would be a 2 way classification problem, and the meta-testin
 <b>The architecute of convolutional siamese neural network for few-shot image classificaation.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/19/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/19/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>
 
 * First, convolutional siamese network learns to encode two images into feature vectors via a embedding function <img src="https://latex.codecogs.com/svg.latex?f_{\theta}" title="f_{\theta}" /> which contains a couple of convolutional layers.
@@ -111,7 +111,7 @@ The task of matching networks proposed by [Vinyals et al.](http://papers.nips.cc
 <b>The architecute of Matching Networks.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/19/Figure-3.png?raw=true" alt="Figure 3"/>
+<img src="/assets/Papers/19/Figure-3.png?raw=true" alt="Figure 3"/>
 </p>
 The attention kernel depends on two embedding functions, <img src="https://latex.codecogs.com/svg.latex?f" title="f" /> and <img src="https://latex.codecogs.com/svg.latex?g" title="g" />, for encoding the test sample and the support set samples respectively. The attention weight between two data points is the cosine similarity between their embedding vectors, normalized by softmax:
 <p align="center">
@@ -134,7 +134,7 @@ The prediction is made by computing the softmax of distances between these proto
 <b>Prototypical networks in the few-shot and zero-shot scenarios.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/19/Figure-5.png?raw=true" alt="Figure 5"/>
+<img src="/assets/Papers/19/Figure-5.png?raw=true" alt="Figure 5"/>
 </p>
 
 ### Relation Network
@@ -146,7 +146,7 @@ Relation Network was proposed by [Sung et al.](http://openaccess.thecvf.com/cont
 <b>Relation Network architecture for a 5-way 1-shot problem with one query example.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/19/Figure-4.png?raw=true" alt="Figure 4"/>
+<img src="/assets/Papers/19/Figure-4.png?raw=true" alt="Figure 4"/>
 </p>
 This addresses the challenge faced by the previous methods, where we need to model more complex relationships between datapoints. In this method, we learn non-linear relation module on embeddings. Other solutions to the challenge include:
 * Learning infinite mixture of prototypes, or
@@ -163,7 +163,7 @@ Because MANN is expected to encode new information fast and thus to adapt to new
 <b>The architecture of Neural Turning Machine.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/19/Figure-6.png?raw=true" alt="Figure 6"/>
+<img src="/assets/Papers/19/Figure-6.png?raw=true" alt="Figure 6"/>
 </p>
 
 To use MANN for meta-learning tasks, we need to train it in a way that memory can encode and capture information of new tasks fast and, in the meantime, any stored representation is easily accessible. In each training episode, the truth label <img src="https://latex.codecogs.com/svg.latex?y_t" title="y_t" /> is presented with one step offset <img src="https://latex.codecogs.com/svg.latex?(x_{t&plus;1},y_t)" title="(x_{t+1},y_t)" />: it is the true lable for the input at the previous time step <img src="https://latex.codecogs.com/svg.latex?t" title="t" />, but presented as part of the input at time step <img src="https://latex.codecogs.com/svg.latex?t&plus;1" title="t+1" />
@@ -172,7 +172,7 @@ To use MANN for meta-learning tasks, we need to train it in a way that memory ca
 <b>Task setup in MANN for meta-learning.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/19/Figure-7.png?raw=true" alt="Figure 7"/>
+<img src="/assets/Papers/19/Figure-7.png?raw=true" alt="Figure 7"/>
 </p>
 In this way, MANN is motivated to memorize the information of a new dataset, because the memory has to hold the current input until the label is present later, and then retrieve the old information to make a prediction accordingly.
 
@@ -185,7 +185,7 @@ Meta Networks proposed by [Mukhdalai et al.](https://arxiv.org/abs/1703.00837) i
 <b>Combining slow and fast weights in a MLP.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/19/Figure-8.png?raw=true" alt="Figure 8"/>
+<img src="/assets/Papers/19/Figure-8.png?raw=true" alt="Figure 8"/>
 </p>
 
 Key components of MetaNet are:
@@ -199,7 +199,7 @@ To get fast weights, we need to create two functions <img src="https://latex.cod
 <b>The MetaNet architecture.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/19/Figure-9.png?raw=true" alt="Figure 9"/>
+<img src="/assets/Papers/19/Figure-9.png?raw=true" alt="Figure 9"/>
 </p>
 
 ## Optimization-Based
@@ -222,7 +222,7 @@ While fixing <img src="https://latex.codecogs.com/svg.latex?f_t&space;=&space;1"
 <b>Model setup.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/19/Figure-10.png?raw=true" alt="Figure 10"/>
+<img src="/assets/Papers/19/Figure-10.png?raw=true" alt="Figure 10"/>
 </p>
 The training process mimics what happens during test. During each training epoch, we first sample a dataset and then sample mini-batches out of train set to update <img src="https://latex.codecogs.com/svg.latex?\theta" title="\theta" /> for <img src="https://latex.codecogs.com/svg.latex?T" title="T" /> rounds. The final state of the learner parameter <img src="https://latex.codecogs.com/svg.latex?\theta_T" title="\theta_T" /> is used to train the meta-learner on the test data.
 
@@ -234,7 +234,7 @@ MAML is a fairly general optimization algorithm, compatible with any model that 
 <b>Algorithm for MAML.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/19/Figure-11.png?raw=true" alt="Figure 11"/>
+<img src="/assets/Papers/19/Figure-11.png?raw=true" alt="Figure 11"/>
 </p>
 MAML can be viewed as computational graph, with embedded gradient operator. Note that the outer step of MAML assures us that the total loss over all tasks is being optimized, but there is no guarantee for the loss of a given task to be minimized.
 The meta-optimization step relies on second-order derivatives since, the <img src="https://latex.codecogs.com/svg.latex?\theta'" title="\theta'" /> already has a differentiation step going on. To make computation less expensive, a modified version of MAML omits second derivatives resulting in a simplified and cheaper implementation, known as First-Order MAML.
@@ -250,7 +250,7 @@ Reptile proposed by [Nichol et al.](https://arxiv.org/abs/1803.02999) is a simpl
 <b>Batched version of Reptile Algorithm.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/19/Figure-12.png?raw=true" alt="Figure 12"/>
+<img src="/assets/Papers/19/Figure-12.png?raw=true" alt="Figure 12"/>
 </p>
 
 To find a solution that is good across tasks, we would like to find a parameter close to all the optimal manifolds of all tasks.
@@ -259,7 +259,7 @@ To find a solution that is good across tasks, we would like to find a parameter 
 <b>The Reptile algorithm updates the parameter alternatively to be closer to the optimal manifolds of different tasks.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/19/Figure-13.png?raw=true" alt="Figure 13"/>
+<img src="/assets/Papers/19/Figure-13.png?raw=true" alt="Figure 13"/>
 </p>
 
 ### Probabilistic Interpretation of Optimization-Based Inference

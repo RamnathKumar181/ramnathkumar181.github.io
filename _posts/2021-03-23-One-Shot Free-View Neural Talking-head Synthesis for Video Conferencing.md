@@ -20,7 +20,7 @@ The authors propose a neural talking-head video synthesis model and demonstrate 
 <b>Overview of proposed approach.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/18/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/18/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 People's faces have an inherent structure- from the shape to the relative arrangement of different parts such as eyes, nose, mouth, etc. This allows us to use keypoints and associated metadata for efficient compression, an order of magnitude better than traditional codecs. The model does not guarantee pixel aligned output videos; however, it faithfully models facial movements and emotions.
@@ -36,7 +36,7 @@ The proposed method can be divided into three major steps:
 <b>Different features extracted from the source image.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/18/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/18/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>
 
 * <b>3D appearance feature extraction (<img src="https://latex.codecogs.com/svg.latex?F" title="F" />)</b>: Using a neural network <img src="https://latex.codecogs.com/svg.latex?F" title="F" />, the source image <img src="https://latex.codecogs.com/svg.latex?s" title="s" /> is mapped to a 3D appearance feature volume <img src="https://latex.codecogs.com/svg.latex?f_s" title="f_s" />.
@@ -51,7 +51,7 @@ The proposed method can be divided into three major steps:
 <b>Different features extracted from the driving video.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/18/Figure-3.png?raw=true" alt="Figure 3"/>
+<img src="/assets/Papers/18/Figure-3.png?raw=true" alt="Figure 3"/>
 </p>
 
 The driving video is used to extract motion-related information. To this end, head pose estimation network <img src="https://latex.codecogs.com/svg.latex?H" title="H" /> and expression deformation estimator network <img src="https://latex.codecogs.com/svg.latex?\Delta" title="\Delta" /> is used. In video conferencing, we can change a person's head pose in the video stream freely despite the original view angle.
@@ -62,7 +62,7 @@ The driving video is used to extract motion-related information. To this end, he
 <b>Video synthesis pipeline.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/18/Figure-4.png?raw=true" alt="Figure 4"/>
+<img src="/assets/Papers/18/Figure-4.png?raw=true" alt="Figure 4"/>
 </p>
 
 To summarize so far, we have source image <img src="https://latex.codecogs.com/svg.latex?s" title="s" /> and driving video <img src="https://latex.codecogs.com/svg.latex?d" title="d" />. The task is to generate output video <img src="https://latex.codecogs.com/svg.latex?y" title="y" /> such that it has the identity-specific information from <img src="https://latex.codecogs.com/svg.latex?s" title="s" /> and motion-specific information from <img src="https://latex.codecogs.com/svg.latex?d" title="d" />. To obtain identity-specific information different neural networks are used and the same goes for motion-specific information. These pieces of information are used to obtain <img src="https://latex.codecogs.com/svg.latex?K" title="K" /> 3D keypoints and Jacobians for both <img src="https://latex.codecogs.com/svg.latex?s" title="s" /> and <img src="https://latex.codecogs.com/svg.latex?d" title="d" />.

@@ -46,7 +46,7 @@ In order to warrant unbiased comparability, equal and transparent training proto
 <b>Evaluation of DML pipeline parameters and architectures.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/5/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/5/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 
@@ -58,7 +58,7 @@ Their study indicates that DML benefits from data diversity in mini-batches, ind
 <b>Comparison of mini-batch mining strategies.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/5/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/5/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>
 
 ### Comparing DML models

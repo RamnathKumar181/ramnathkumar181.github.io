@@ -32,7 +32,7 @@ This has been the most common approach in recent years, and involves updating th
 <b>Summary of possible approaches.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/14/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/14/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 ## Approach

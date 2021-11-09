@@ -13,7 +13,7 @@ With the wrong curriculum, agents suffer the effects of meta-overfitting, shallo
 <b>Brief Overview of Methodology</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/28/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/28/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 Meta-ADR proposes tasks to a meta-RL agent, helping learn a curriculum of tasks rather than uniformly sampling them from a set distribution. A discriminator learns a reward as a proxy for task-difficulty, using pre and post-adaptation rollouts as input. The reward is used to train SVPG particles, which find the tasks causing the meta-learner the most difficulty after adaption. The particles propose a diverse set of tasks, trying to find the tasks that are currently causing the agent the most difficulty.
@@ -32,5 +32,5 @@ While curriculum learning has had success in scenarios where task-spaces are str
 <b>Algorithm</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/28/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/28/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>

@@ -26,5 +26,5 @@ They also proposed a new type of hidden unit. This hidden unit is motivated by t
 <b>An illustration of the proposed RNN Encoder-Decoder.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/4/Figure-3.png?raw=true" alt="Figure 3"/>
+<img src="/assets/Papers/4/Figure-3.png?raw=true" alt="Figure 3"/>
 </p>

@@ -24,7 +24,7 @@ An image (for e.g.) is encoded using a convnet until it reaches a feature map of
 <b>Base encoder model in the context of image data.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/20/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/20/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 After this, we pass both the high level feature vector, <img src="https://latex.codecogs.com/svg.latex?Y" title="Y" />, and the lower-level <img src="https://latex.codecogs.com/svg.latex?M*M" title="M*M" /> feature map through a discriminator to get the score. Fake samples are drawn by combining the same feature vector with a <img src="https://latex.codecogs.com/svg.latex?M*M" title="M*M" /> feature map from another image.
@@ -33,7 +33,7 @@ After this, we pass both the high level feature vector, <img src="https://latex.
 <b>Deep InfoMax (DIM) with a global MI(X;Y) objective.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/20/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/20/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>
 
 
@@ -60,7 +60,7 @@ First, we encode the input to a feature map, that reflect useful structure in th
 <b>Maximizing mutual information between local features and global features.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/20/Figure-3.png?raw=true" alt="Figure 3"/>
+<img src="/assets/Papers/20/Figure-3.png?raw=true" alt="Figure 3"/>
 </p>
 
 ### Matching Representations to a prior distribution

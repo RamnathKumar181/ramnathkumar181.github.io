@@ -21,7 +21,7 @@ In the blog, the author only covered the case of finite number of trials, and me
 <b>An illustration of how a Bernoulli multi-armed bandit works. The reward probabilities are unknown to the player.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/35/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/35/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 A naive approach can be to continue playing on the machine for many rounds so as to eventually estimate the "true" reward probability. However, this is quite wasteful and does not guarantee the best long-term rewards regardless.
@@ -154,5 +154,5 @@ We need exploration because information is valuable. In terms of the exploration
 <b>Summary of algorithms discussed.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/35/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/35/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>

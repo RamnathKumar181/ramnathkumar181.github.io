@@ -44,5 +44,5 @@ Semantic content loss is defined using the l1 sparse regularization of VGG featu
 <b>Ouput from CartoonGAN.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/6/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/6/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>

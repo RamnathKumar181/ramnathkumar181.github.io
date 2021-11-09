@@ -14,7 +14,7 @@ The goal of meta-learning is to train a model on a variety of learning tasks, su
 <b>Model-agnostic meta-learning algorithm.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/15/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/15/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 ## Catastrophic Forgetting
@@ -26,7 +26,7 @@ Let's consider 2 tasks. Suppose, the task-wise gradients for a model's parameter
 <b>Gradient direction for various tasks at time t.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/15/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/15/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>
 
 ## Model Agnostic Meta-Learning (MAML)
@@ -42,5 +42,5 @@ The aim is to find model parameters that are sensitive to changes in the task, s
 <b>MAML Algorithm.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/15/Figure-3.png?raw=true" alt="Figure 3"/>
+<img src="/assets/Papers/15/Figure-3.png?raw=true" alt="Figure 3"/>
 </p>

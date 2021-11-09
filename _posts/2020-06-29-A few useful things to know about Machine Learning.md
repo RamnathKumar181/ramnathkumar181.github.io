@@ -15,7 +15,7 @@ Regardless of how many new models are out there, all models can be fundamentally
 <b>The three components of learning algorithms.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/1/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/1/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 
@@ -38,7 +38,7 @@ When the knowledge and the data is not sufficient to train a complete model, the
 <b>Bias and Variance.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/1/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/1/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>
 
 ## Intuition Fails in High Dimensions
@@ -66,7 +66,7 @@ predictions in the regions that matter.
 <b>Very different frontiers can yield similar predictions.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/1/Figure-3.png?raw=true" alt="Figure 3"/>
+<img src="/assets/Papers/1/Figure-3.png?raw=true" alt="Figure 3"/>
 </p>
 
 

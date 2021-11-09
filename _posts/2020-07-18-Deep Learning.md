@@ -21,14 +21,14 @@ empirical results strongly suggest that local minima are not a serious issue in 
 <b>Forward pass in a neural net.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/2/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/2/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 <p align="center">
 <b>Backward pass in a neural net.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/2/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/2/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>
 ## Convolutional neural networks
 

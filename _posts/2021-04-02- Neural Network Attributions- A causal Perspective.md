@@ -30,7 +30,7 @@ An <img src="https://latex.codecogs.com/svg.latex?n" title="n" /> layer feedforw
 <b>Feedforward neural network as SCM.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/22/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/22/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 However in a RNN, defining an SCM is more complicated due to the feedback loops which makes the Bayesian network no longer acyclic. Due to the recurrent connections between hidden states, marginalizing over the hidden neurons (via recursive substitution) creates directed edges from input neurons at every timestep to output neurons at subsequent timesteps.
@@ -38,7 +38,7 @@ However in a RNN, defining an SCM is more complicated due to the feedback loops 
 <b>RNN as SCM.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/22/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/22/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>
 
 ## Causal Attributions for Neural Network

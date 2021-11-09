@@ -73,7 +73,7 @@ Image locations are like cells. Weights are like DNA. In a ConvNet, the weights 
 <b>Three adjacent levels of GLOM for one location.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/21/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/21/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 The idea is that at each location, we have seperate hardware. Instead of allocating hardware to things like a nose or mouth, we allocate hardware to a location (multiple levels at that). We deal a static image as a very boring video. At the bottom left corner, we give frame 1. From image pixels to <img src="https://latex.codecogs.com/svg.latex?L-1" title="L-1" />, we represent what's going on at location <img src="https://latex.codecogs.com/svg.latex?x" title="x" />. At level <img src="https://latex.codecogs.com/svg.latex?L" title="L" />, we might understand what sub-part(nostril) is there. Then, at level <img src="https://latex.codecogs.com/svg.latex?L&plus;1" title="L+1" />, we want to represent what major part(nose) is there, and so on. Here, the activity comes from 3 different vectors as shown in the image. In addittion to this, there are interactions between different cells which are not shown in the above diagram.
 The level <img src="https://latex.codecogs.com/svg.latex?L" title="L" /> embedding at location <img src="https://latex.codecogs.com/svg.latex?x" title="x" /> is an average of four contribution:
@@ -86,7 +86,7 @@ The level <img src="https://latex.codecogs.com/svg.latex?L" title="L" /> embeddi
 <b>The embedding vectors for a row of locations in a single mid-level layer of GLOM.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/21/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/21/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>
 
 Here, each column is a different location, and boxes within each column is the level at the given location. What we hope to see is that at object level, there will be many locations that agree on what the overall object is. At the part level, not all might agree, which might denote parts such as nose, mouth, etc. The basic idea of GLOM is that we represent a parse tree by the relationship between these islands. The fact that all object-level-embeddings agree is a good inference of what the object is.
@@ -99,7 +99,7 @@ Suppose we have 4 pixels, in which the intensity increases linearly along the ro
 <b>S simple example of neural field.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/21/Figure-3.png?raw=true" alt="Figure 3"/>
+<img src="/assets/Papers/21/Figure-3.png?raw=true" alt="Figure 3"/>
 </p>
 
 ### Top-down prediction of the parts of a face

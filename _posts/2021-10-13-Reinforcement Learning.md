@@ -12,7 +12,7 @@ Say, we have an agent in an unknown environment and this agent can obtain some r
 <b>An agent interacts with the environment, trying to take smart actions to maximize cumulative rewards.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/34/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/34/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 ## Background
@@ -29,7 +29,7 @@ The agent's **policy** (<img src="https://latex.codecogs.com/svg.latex?\pi(s)" t
 <b>Summary of approaches in RL based on whether we want to model the value, policy, or the environment.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/34/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/34/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>
 
 The interaction between the agent and the environment involves a sequence of actions and observed rewards in time, <img src="https://latex.codecogs.com/svg.latex?t&space;=&space;1,2,...,T" title="t = 1,2,...,T" />. During the process, the agent accumulates the knowledge about the environment, learns the optimal policy, and makes decisions on which action to take next so as to efficiently learn the best policy. Let's label the state, action, and reward at time step <img src="https://latex.codecogs.com/svg.latex?t" title="t" /> as <img src="https://latex.codecogs.com/svg.latex?S_t" title="S_t" />, <img src="https://latex.codecogs.com/svg.latex?A_t" title="A_t" />, and <img src="https://latex.codecogs.com/svg.latex?R_t" title="R_t" />, respectively. Thus, the interaction sequence is fully described by one **episode** (also known as "trial" or "trajectory") and the sequence ends at the terminal state <img src="https://latex.codecogs.com/svg.latex?S_T" title="S_T" />:
@@ -139,7 +139,7 @@ In other words, the future and the past are **conditionally independent** given 
 <b>The agent-environment interaction in a Markov decision process.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/34/Figure-3.png?raw=true" alt="Figure 3"/>
+<img src="/assets/Papers/34/Figure-3.png?raw=true" alt="Figure 3"/>
 </p>
 
 A Markov decision process consists of five elements <img src="https://latex.codecogs.com/svg.latex?\mathcal{M}&space;=&space;<&space;\mathcal{S},&space;\mathcal{A},\mathcal{P},\mathcal{R},\gamma>" title="\mathcal{M} = < \mathcal{S}, \mathcal{A},\mathcal{P},\mathcal{R},\gamma>" />, where the symbols have the same meanings as discussed in previous sections. Note that, in an unknown environment, we do not have perfect knowledge about <img src="https://latex.codecogs.com/svg.latex?\mathcal{P}" title="\mathcal{P}" /> and <img src="https://latex.codecogs.com/svg.latex?\mathcal{R}" title="\mathcal{R}" />.
@@ -178,7 +178,7 @@ The recursive update process can be further decomposed to be equations built on 
 <b>Illustration of how Bellman expectation equations update state-value and action-value functions.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/34/Figure-4.png?raw=true" alt="Figure 4"/>
+<img src="/assets/Papers/34/Figure-4.png?raw=true" alt="Figure 4"/>
 </p>
 
 If we are interested in the optimal values rather than computing the expectation following a policy, we could jump right into the maximum returns during the alternative updates without using a policy. If we have complete information  of the environment, this turns into a planning problem, solvable by DP. Unfortunately, in most scenarios, we do not know <img src="https://latex.codecogs.com/svg.latex?P^a_{ss'}" title="P^a_{ss'}" /> or <img src="https://latex.codecogs.com/svg.latex?R(s,a)" title="R(s,a)" />, so we cannot solve MDPs by directly applying Bellmen equations, but it lays the theoretical foundation for many RL algorithms.
@@ -237,7 +237,7 @@ where, <img src="https://latex.codecogs.com/svg.latex?\mathbb{I}[S_t=s]" title="
 <b>Illustration of MC approach.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/34/Figure-5.png?raw=true" alt="Figure 5"/>
+<img src="/assets/Papers/34/Figure-5.png?raw=true" alt="Figure 5"/>
 </p>
 
 
@@ -309,7 +309,7 @@ The key difference from SARSA is that Q-learning does not follow the current pol
 <b>The backup diagrams for Q-learning and SARSA.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/34/Figure-6.png?raw=true" alt="Figure 6"/>
+<img src="/assets/Papers/34/Figure-6.png?raw=true" alt="Figure 6"/>
 </p>
 
 #### Deep Q-Network
@@ -321,7 +321,7 @@ In the previous section on value estimation in TD learning, we only trace one st
 Let's label the estimated return followin <img src="https://latex.codecogs.com/svg.latex?n" title="n" /> steps as <img src="https://latex.codecogs.com/svg.latex?G_t^{(n)}" title="G_t^{(n)}" />, <img src="https://latex.codecogs.com/svg.latex?n&space;=&space;1,...,\infty" title="n = 1,...,\infty" />, then:
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/34/Figure-10.png?raw=true" alt="Figure 10"/>
+<img src="/assets/Papers/34/Figure-10.png?raw=true" alt="Figure 10"/>
 </p>
 
 The generalized n-step TD learning still has the same  form of value function:
@@ -331,7 +331,7 @@ The generalized n-step TD learning still has the same  form of value function:
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/34/Figure-11.png?raw=true" alt="Figure 11"/>
+<img src="/assets/Papers/34/Figure-11.png?raw=true" alt="Figure 11"/>
 </p>
 
 We are free to pick any <img src="https://latex.codecogs.com/svg.latex?n" title="n" /> in TD learning as we like. Now, the question becomes what is the best <img src="https://latex.codecogs.com/svg.latex?n" title="n" />? Which <img src="https://latex.codecogs.com/svg.latex?G_t^{(n)}" title="G_t^{(n)}" /> gives us the best return approximation? A common yet smart solution is to apply a weighted sum of all possible n-step TD targets rather than pick the best <img src="https://latex.codecogs.com/svg.latex?n" title="n" />. The weight decay by a factor <img src="https://latex.codecogs.com/svg.latex?\lambda" title="\lambda" /> with n, <img src="https://latex.codecogs.com/svg.latex?\lambda^{n-1}" title="\lambda^{n-1}" />; the intuition is similar to why we want to discount future rewards when computing tje return: the more future we look into, the less confident we would be. To make all the weight (<img src="https://latex.codecogs.com/svg.latex?n&space;\rightarrow&space;\infty" title="n \rightarrow \infty" />) sum up to 1, we multiply every weight by (<img src="https://latex.codecogs.com/svg.latex?1-\lambda" title="1-\lambda" />).
@@ -342,7 +342,7 @@ The weighted sum of many n-step returns is called <img src="https://latex.codeco
 <b>Comparison of backup diagrams of Monte-Carlo, Temporal-Difference learning, and Dynamic Programming for state value functions.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/34/Figure-12.png?raw=true" alt="Figure 12"/>
+<img src="/assets/Papers/34/Figure-12.png?raw=true" alt="Figure 12"/>
 </p>
 
 ### Policy Gradient
@@ -428,7 +428,7 @@ The loss function for state-value is to minimize the mean squared error, <img sr
 <b>Outline of the A3C Algorithm.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/34/Figure-13.png?raw=true" alt="Figure 9"/>
+<img src="/assets/Papers/34/Figure-13.png?raw=true" alt="Figure 9"/>
 </p>
 
 
@@ -480,7 +480,7 @@ The game of Go has been an extremely hard problem in the field of AI. AlphaGo an
 <b>The board of Go. Two players play black and white stones alternatively on the vacant intersections of a board with 19 x 19 lines. A group of stones must have at least one open point (an intersection, called a “liberty”) to remain on the board and must have at least two or more enclosed liberties (called “eyes”) to stay “alive”. No stone shall repeat a previous position.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/34/Figure-8.png?raw=true" alt="Figure 8"/>
+<img src="/assets/Papers/34/Figure-8.png?raw=true" alt="Figure 8"/>
 </p>
 
 The main component is a deep CNN over the game board configuration (precisely, a ResNet with batch normalization and ReLU). This network outputs two values:
@@ -497,7 +497,7 @@ The main component is a deep CNN over the game board configuration (precisely, a
 <b>AlphaGo Zero is trained by self-play while MCTS improves the output policy further in every step.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/34/Figure-9.png?raw=true" alt="Figure 9"/>
+<img src="/assets/Papers/34/Figure-9.png?raw=true" alt="Figure 9"/>
 </p>
 
 During self-play, MCTS further improves the action probability distribution <img src="https://latex.codecogs.com/svg.latex?\pi&space;\sim&space;p(.)" title="\pi \sim p(.)" /> and then the action <img src="https://latex.codecogs.com/svg.latex?a_t" title="a_t" /> is sampled from this improved policy. The reward <img src="https://latex.codecogs.com/svg.latex?z_t" title="z_t" /> is a binary value indicating whether the current player eventually wins the game.  Each move generates an episode tuple <img src="https://latex.codecogs.com/svg.latex?(s_t,&space;\pi_t,&space;z_t)" title="(s_t, \pi_t, z_t)" /> and it is saved into the replay memory.

@@ -46,7 +46,7 @@ The main idea is to maximize number of bits sent one of the networks.
 <b>Summary of proposed approach.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/1/Figure-5.png?raw=true" alt="Figure 5"/>
+<img src="/assets/Papers/1/Figure-5.png?raw=true" alt="Figure 5"/>
 </p>
 
 ### How does the algorithm work?
@@ -79,7 +79,7 @@ As a very small scale experiment, the authors apply their approach on a 2D navig
 <b>2D Navigation task.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/1/Figure-6.png?raw=true" alt="Figure 6"/>
+<img src="/assets/Papers/1/Figure-6.png?raw=true" alt="Figure 6"/>
 </p>
 
 ### Overlapping Skills
@@ -90,7 +90,7 @@ This is also a 2D navigation task which all start at the hallway. Furthermore, w
 <b>Overlapping task.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/1/Figure-7.png?raw=true" alt="Figure 7"/>
+<img src="/assets/Papers/1/Figure-7.png?raw=true" alt="Figure 7"/>
 </p>
 
 ## Conclusion

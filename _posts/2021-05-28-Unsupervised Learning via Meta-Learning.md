@@ -14,7 +14,7 @@ The authors note that when integrated with meta-learning, relatively simple task
 <b>Brief Overview of Methodology</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/27/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/27/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 

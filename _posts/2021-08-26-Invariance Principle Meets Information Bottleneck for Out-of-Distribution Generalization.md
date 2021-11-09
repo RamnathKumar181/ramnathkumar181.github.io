@@ -36,7 +36,7 @@ However, it is possible for both ERM and IRM to fail in cases of linear classifi
 <b>Failures of ERM and IRM in linear classification</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/29/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/29/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 
 As shown in the figure, If latent invariant features in the training environments are separable, then there are multiple equally good candidates that could have generated the data, and the algorithm cannot distinguish between these. The models that use the spurious features for their prediction are bad classifiers, and would be easy to provide a counter-example in OOD setting where the model fails.
@@ -56,7 +56,7 @@ The authors further show that if the support of latent invariant features are st
 <b>Impossibility result</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/29/Figure-2.png?raw=true" alt="Figure 2"/>
+<img src="/assets/Papers/29/Figure-2.png?raw=true" alt="Figure 2"/>
 </p>
 
 Thus, even if invariant support overlap is guaranteed, the model could still fail if the model relies on spurious changes. However, if spurious features are kept constant, then both ERM and IRM could potentially succeed.

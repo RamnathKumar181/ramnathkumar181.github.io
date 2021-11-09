@@ -203,7 +203,7 @@ The sigmoid function saturates when its argument is very positive or very negati
 <b>The logistic sigmoid function.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/3/Figure-1.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/3/Figure-1.png?raw=true" alt="Figure 1"/>
 </p>
 * <b>Softplus function:</b>
 <p align="center">
@@ -214,7 +214,7 @@ The name of softplus function comes from the fact that it is a smoothed or "soft
 <b>The softplus function.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/3/Figure-2.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/3/Figure-2.png?raw=true" alt="Figure 1"/>
 </p>
 The following properties are all useful enough to memorize:
 <p align="center">
@@ -269,7 +269,7 @@ The KL divergence has many useful properties, most notably that it is nonnegativ
 <b>KL divergence is assymetric.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/3/Figure-3.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/3/Figure-3.png?raw=true" alt="Figure 1"/>
 </p>
 
 A quantity that is closely related to the KL divergence is the <b>cross-entropy</b> <img src="https://latex.codecogs.com/svg.latex?\inline&space;H(P,Q)&space;=&space;H(P)&space;&plus;&space;D_{KL}(P||Q)" title="H(P,Q) = H(P) + D_{KL}(P||Q)" />
@@ -286,7 +286,7 @@ Graphs with directed edges, and they represent factorizations into conditional p
 <b>Directed model.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/3/Figure-4.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/3/Figure-4.png?raw=true" alt="Figure 1"/>
 </p>
 Here, <img src="https://latex.codecogs.com/svg.latex?\inline&space;p(a,b,c,d,e)&space;=&space;p(a)p(b|a)p(c|a,b)p(d|b)p(e|c)" title="p(a,b,c,d,e) = p(a)p(b|a)p(c|a,b)p(d|b)p(e|c)" />
 
@@ -297,6 +297,6 @@ Graphs with undirected edges, and represent factorizations into a set of functio
 <b>Undirected model.</b>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ramnathkumar181/ramnathkumar181.github.io/master/assets/Papers/3/Figure-5.png?raw=true" alt="Figure 1"/>
+<img src="/assets/Papers/3/Figure-5.png?raw=true" alt="Figure 1"/>
 </p>
 Here, <img src="https://latex.codecogs.com/svg.latex?\inline&space;p(a,b,c,d,e)&space;=&space;\frac{1}{Z}\Phi&space;^{(1)}(a,b,c)\Phi&space;^{(2)}(b,d)\Phi&space;^{(3)}(c,e)" title="p(a,b,c,d,e) = \frac{1}{Z}\Phi ^{(1)}(a,b,c)\Phi ^{(2)}(b,d)\Phi ^{(3)}(c,e)" />.
