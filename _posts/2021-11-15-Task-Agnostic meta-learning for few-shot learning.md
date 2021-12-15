@@ -76,7 +76,7 @@ Inequality measures are instrumental towards calculating the economic inequaliti
 <img src="https://latex.codecogs.com/svg.latex?G&space;=&space;\frac{\sum_{i=1}^M&space;\sum_{j=1}^M&space;\left&space;|&space;\ell_i&space;-&space;\ell_j&space;\right&space;|}{2n&space;\sum_{i=1}^M&space;\ell_i}" title="G = \frac{\sum_{i=1}^M \sum_{j=1}^M \left | \ell_i - \ell_j \right |}{2n \sum_{i=1}^M \ell_i}" />
 </p>
 
-* **Variance of Logarithms:** This metric has a greater emphasis on the lower losses of the distribution.
+* **Variance of Logarithms:** This metric has a greater emphasis on the lower losses of the distribution. Here <img src="https://latex.codecogs.com/svg.latex?g(\ell)" title="g(\ell)" /> is defined as the geometric mean of the distribution.
 
 <p align="center">
 <img src="https://latex.codecogs.com/svg.latex?V_{L}(\ell)&space;=&space;\frac{1}{M}&space;\sum_{i=1}^M&space;\left&space;[&space;\ln&space;\ell_i&space;-&space;\ln&space;g(\ell)&space;\right&space;]^2" title="V_{L}(\ell) = \frac{1}{M} \sum_{i=1}^M \left [ \ln \ell_i - \ln g(\ell) \right ]^2" />
