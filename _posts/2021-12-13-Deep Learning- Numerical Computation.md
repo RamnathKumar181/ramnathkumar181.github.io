@@ -62,6 +62,9 @@ To minimize <img src="https://latex.coecogs.com/svg.latex?f"/>, we would like to
 
 <p align="center">
 <img src="https://latex.coecogs.com/svg.latex?\min_{u,u^Tu=1}u^T\bigtriangledown _x f(x)"/>
+</p>
+
+<p align="center">
 <img src="https://latex.codecogs.com/svg.latex?\min_{u,u^Tu=1} \left \| u \right \|_2 \left \| \bigtriangledown _x f(x) \right \|_2 \cos\theta"/>
 </p>
 
