@@ -192,5 +192,5 @@ The **Karush-Kuhn-Tucker** (KKT) approach provides a more general solution to co
 
 With this simple conversion, we can solve the constrained optimization problem similar to our unconstrained optimization problem. A simple set of properties describe the optimal points of constrained optimization problems. These properties are called the Karush-Kuhn-Tucker (KKT) conditions. They are necessary conditions, but not always sufficient conditions for a point to be optimal. The conditions are:
 * The gradient of the generalized Lagrangian is zero.
-* All constraints on both <img src="https://latex.coecogs.com/svg.latex?x"/. and the KKT multipliers are satisfied.
-* The inequality constraints exhibit "complementary slackness", i.e. <img src="https://latex.coecogs.com/svg.latex?\alpha \odot h(x) = 0"/>.
+* All constraints on both <img src="https://latex.coecogs.com/svg.latex?x" />. and the KKT multipliers are satisfied.
+* The inequality constraints exhibit "complementary slackness", i.e. <img src="https://latex.coecogs.com/svg.latex?\alpha \odot h(x) = 0" />.
