@@ -1,5 +1,5 @@
 ---
-title: 	edarkfind- Unsupervised multi-view learning for sybil account detection
+title: 	edarkfind-Unsupervised multi-view learning for sybil account detection
 published: true
 badges: <abbr class="badge">WWW</abbr>
 authors: <a href="https://ramnathkumar181.github.io/"><strong>Ramnath Kumar</strong></a>, Shweta Yadav, Raminta Daniulaityte, Francois Lamy, Krishnaprasad Thirunarayan,

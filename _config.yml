@@ -43,7 +43,7 @@ baseurl: ""
 
 collections:
   research:
-      sort_by: year
+      sort_by: date
 #
 # !! You don't need to change any of the configuration flags below !!
 #
