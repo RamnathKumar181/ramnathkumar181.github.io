@@ -3,20 +3,21 @@ layout: default
 permalink: /research/
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<div class="publications">
+    <ol class="bibliography">
+    {% for post in site.research %}
+        <li>
+          <div class=row>
+              <div class="col-sm2 abbr">
+                  <abbr class="badge z-depth-1"> {{ post.badge }} </abbr>
+                  {% if post.award %}
+                     <abbr class="badge z-depth-1 award"> {{ post.award }} </abbr>
+                  {% endif %}
+              </div>
+              <div class="col-sm-8">
+                  <div class="title"> {{ post.title }} </div>
+              </div>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt | split:'<!--break-->' | first }}
-      </div>
-
-      {% if post.excerpt contains '<!--break-->' %}
-         <a href="{{ post.url }}">Read More</a>
-      {% endif %}
-
-    </article>
   {% endfor %}
+  </ol>
 </div>
