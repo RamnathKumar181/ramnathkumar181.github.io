@@ -286,6 +286,38 @@ nav {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem; }
 
+.abbr {
+    height: 2rem;
+        margin-bottom: 0.5rem;
+        abbr {
+          display: inline-block;
+          background-color: #00369f;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          a {
+            color: white;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+    }}
+
+.award {
+    height: 2rem;
+        margin-bottom: 0.5rem;
+        abbr {
+          display: inline-block;
+          background-color: #efcc00;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          a {
+            color: white;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+    }}
+
 footer {
   padding: 20px 0;
   text-align: center;

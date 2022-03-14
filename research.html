@@ -6,10 +6,16 @@ permalink: /research/
 <div class="posts">
   {% for paper in site.research %}
     <article class="post">
-
+      <<div class="col-sm2 abbr">
+          <abbr class="badge">COLING</abbr>
+      </div>>
       <h3>{{ paper.title }}</h3>
-      {{ paper.authors }} <br>
-      {{ paper.status }}
+      <<div class="author">
+          {{ paper.authors }}
+      </div>>
+      <<div class="periodical">
+          {{ paper.periodical }}
+      </div>>
       <div class=links>
           {{ paper.links }}
       </div>
