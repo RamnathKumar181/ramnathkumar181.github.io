@@ -4,19 +4,11 @@ permalink: /blog/
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+    <ul>
+        {% for post in site.posts %}
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+            <li> <span class="small"> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%B %e, %Y" }})</span> </li>
 
-      <div class="entry">
-        {{ post.excerpt | split:'<!--break-->' | first }}
-      </div>
-
-      {% if post.excerpt contains '<!--break-->' %}
-         <a href="{{ post.url }}">Read More</a>
-      {% endif %}
-
-    </article>
   {% endfor %}
+  </ul>
 </div>
