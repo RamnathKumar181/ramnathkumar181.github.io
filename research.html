@@ -3,23 +3,16 @@ layout: default
 permalink: /research/
 ---
 
-<div class="publications">
-    <ol class="bibliography">
-    {% for paper in site.research %}
-        <li>
-          <div class=row>
-              <div class="col-sm2 abbr">
-                  <abbr class="badge z-depth-1"> {{ paper.badge }} </abbr>
-                  {% if post.award %}
-                     <abbr class="badge z-depth-1 award"> {{ paper.award }} </abbr>
-                  {% endif %}
-              </div>
-              <div class="col-sm-8">
-                  <div class="title"> {{ paper.title }} </div>
-              </div>
-         </div>
-        </li>
+<div class="posts">
+  {% for paper in site.research %}
+    <article class="post">
 
-    {% endfor %}
-    </ol>
+      <h3>{{ paper.title }}</h3>
+      {{ paper.authors }}
+      {{ paper.status }}
+      <div class=links>
+          {{ paper.links }}
+      </div>
+    </article>
+  {% endfor %}
 </div>
