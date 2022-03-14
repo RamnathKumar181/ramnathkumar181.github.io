@@ -5,17 +5,17 @@ permalink: /research/
 
 <div class="publications">
     <ol class="bibliography">
-    {% for post in site.research %}
+    {% for paper in site.research %}
         <li>
           <div class=row>
               <div class="col-sm2 abbr">
-                  <abbr class="badge z-depth-1"> {{ post.badge }} </abbr>
+                  <abbr class="badge z-depth-1"> {{ paper.badge }} </abbr>
                   {% if post.award %}
-                     <abbr class="badge z-depth-1 award"> {{ post.award }} </abbr>
+                     <abbr class="badge z-depth-1 award"> {{ paper.award }} </abbr>
                   {% endif %}
               </div>
               <div class="col-sm-8">
-                  <div class="title"> {{ post.title }} </div>
+                  <div class="title"> {{ paper.title }} </div>
               </div>
 
   {% endfor %}
