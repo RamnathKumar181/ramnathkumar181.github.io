@@ -41,6 +41,9 @@ url: ramnathkumar181.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+collections:
+  research:
+      sort_by: year
 #
 # !! You don't need to change any of the configuration flags below !!
 #
