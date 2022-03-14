@@ -7,7 +7,7 @@ permalink: /research/
   {% for paper in site.research %}
     <article class="post">
       <div class="col-sm2 abbr">
-          <abbr class="badge">COLING</abbr>
+          {{ paper.badges }}
       </div>
       <h3>{{ paper.title }}</h3>
       <div class="author">
