@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PolyLoss-A polynomial expansion perspective of classification loss functions
-published: false
+published: true
 ---
 
 An overview of the paper “[PolyLoss-A polynomial expansion perspective of classification loss functions](https://arxiv.org/pdf/2204.12511)”.
