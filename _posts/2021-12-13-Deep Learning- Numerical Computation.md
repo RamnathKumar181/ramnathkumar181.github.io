@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Deep Learning- Numerical Computation
+title: Numerical Computation
 published: true
+book: true
+book_title: Deep Learning
 ---
 
 An overview of the chapter “[Numerical Computation](https://www.deeplearningbook.org/contents/numerical.html)” from the famous book “[Deep Learning](https://www.deeplearningbook.org/)” written by Ian Goodfellow, Yoshua Bengio and Aaron Courville.

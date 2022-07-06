@@ -6,9 +6,11 @@ permalink: /blog/
 <div class="posts">
     <ul>
         {% for post in site.posts %}
-
-            <li> <span class="small"> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%B %e, %Y" }})</span> </li>
-
+            {% if post.book%}
+                <li> <span class="small"> <a href="{{ site.baseurl }}{{ post.book_title }}">{{ post.book_title }}</a> ({{ post.date | date: "%B %e, %Y" }})</span> </li>
+            {% else %}
+                <li> <span class="small"> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%B %e, %Y" }})</span> </li>
+            {% endif %}
   {% endfor %}
   </ul>
 </div>
