@@ -7,7 +7,7 @@ permalink: /blog/Deep%20Learning/
     <ul>
         {% for post in site.posts %}
             {% if post.book_title == "Deep Learning"%}
-                <li> <span class="small"> <a href="{{ site.baseurl }}{{ post.post_title }}">{{ post.book_title }}</a> ({{ post.date | date: "%B %e, %Y" }})</span> </li>
+                <li> <span class="small"> <a href="{{ site.baseurl }}{{ post.post_title }}">{{ post.title }}</a> ({{ post.date | date: "%B %e, %Y" }})</span> </li>
             {% endif %}
   {% endfor %}
   </ul>
