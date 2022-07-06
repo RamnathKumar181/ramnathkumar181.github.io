@@ -5,17 +5,17 @@ permalink: /blog/
 
 <div class="posts">
     <ul>
-        <h3>Books</h3>
+        <center><h3>Books</h3></center>
 
         {% for post in site.posts %}
             {% if post.book%}
                 <li> <span class="small"> <a href="{{ site.baseurl }}{{ post.book_title }}" style="color:red">{{ post.book_title }}</a> ({{ post.date | date: "%B %e, %Y" }})</span> </li>
             {% endif %}
   {% endfor %}
-        <h3>Posts</h3>
+        <center><h3>Posts</h3></center>
         {% for post in site.posts %}
             {% unless post.book%}
-                <li> <span class="smal1l"> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%B %e, %Y" }})</span> </li>
+                <li> <span class="small"> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%B %e, %Y" }})</span> </li>
             {% endunless %}
   {% endfor %}
   </ul>
