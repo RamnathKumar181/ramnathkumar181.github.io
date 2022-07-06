@@ -6,8 +6,10 @@ permalink: /blog/Deep%20Learning/
 <div class="posts">
     <ul>
         {% for post in site.posts %}
-            {% if post.book_title == "Deep Learning" and unless post.book %}
-                <li> <span class="small"> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%B %e, %Y" }})</span> </li>
+            {% if post.book_title == "Deep Learning" %}
+                {% unless post.book%}
+                    <li> <span class="small"> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%B %e, %Y" }})</span> </li>
+                {% endunless %}
             {% endif %}
   {% endfor %}
   </ul>
