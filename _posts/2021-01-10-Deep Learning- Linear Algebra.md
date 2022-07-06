@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Deep Learning- Linear Algebra
+title: Linear Algebra
 published: true
+book_title: Deep Learning
 ---
 
 An overview of the chapter “[Linear Algebra](https://www.deeplearningbook.org/contents/linear_algebra.html)” from the famous book “[Deep Learning](https://www.deeplearningbook.org/)” written by Ian Goodfellow, Yoshua Bengio and Aaron Courville.

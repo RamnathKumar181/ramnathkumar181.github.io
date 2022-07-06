@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Deep Learning- Introduction
+title: Introduction
 published: true
+book_title: Deep Learning
 ---
 
 An overview of the chapter “[Introduction](https://www.deeplearningbook.org/contents/intro.html)” from the famous book “[Deep Learning](https://www.deeplearningbook.org/)” written by Ian Goodfellow, Yoshua Bengio and Aaron Courville.

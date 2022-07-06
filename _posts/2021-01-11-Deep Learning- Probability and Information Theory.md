@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Deep Learning- Probability and Information Theory
+title: Probability and Information Theory
 published: true
+book_title: Deep Learning
 ---
 
 An overview of the chapter “[Probability and Information Theory](https://www.deeplearningbook.org/contents/prob.html)” from the famous book “[Deep Learning](https://www.deeplearningbook.org/)” written by Ian Goodfellow, Yoshua Bengio and Aaron Courville.
