@@ -14,7 +14,7 @@ permalink: /blog/
   {% endfor %}
         <center><h3>Posts</h3></center>
         {% for post in site.posts %}
-            {% unless post.book%}
+            {% unless post.book_title%}
                 <li> <span class="small"> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%B %e, %Y" }})</span> </li>
             {% endunless %}
   {% endfor %}
