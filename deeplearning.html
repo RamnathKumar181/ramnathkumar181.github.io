@@ -1,0 +1,14 @@
+---
+layout: default
+permalink: /blog/Deep%20Learning/
+---
+
+<div class="posts">
+    <ul>
+        {% for post in site.posts %}
+            {% if post.book_title == "Deep Learning"%}
+                <li> <span class="small"> <a href="{{ site.baseurl }}{{ post.post_title }}">{{ post.book_title }}</a> ({{ post.date | date: "%B %e, %Y" }})</span> </li>
+            {% endif %}
+  {% endfor %}
+  </ul>
+</div>

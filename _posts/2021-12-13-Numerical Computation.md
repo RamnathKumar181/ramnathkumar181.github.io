@@ -2,7 +2,6 @@
 layout: post
 title: Numerical Computation
 published: true
-book: true
 book_title: Deep Learning
 ---
 
