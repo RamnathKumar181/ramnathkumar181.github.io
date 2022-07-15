@@ -5,18 +5,14 @@ published: false
 book_title: Random Math Concepts
 ---
 
-An overview of the concept  “[Riemann and Lebesgue Integration](https://en.wikipedia.org/wiki/Lebesgue_integration)”.
+An overview of the concept  “[Data Processing Inequality](https://en.wikipedia.org/wiki/Data_processing_inequality)”.
 <!--break-->
-In this work, we discuss important concepts to theoretical machine learning, often used in proofs/derivation of energy functions, convergence, etc.
+In this work, we discuss important concepts to information theory, often useful for intuition, and proofs. The data processing inequality is an information theoretic concept which states that the information content of a signal cannot be increased via a local physical operation. This can be expressed concisely as **'post-processing cannot increase information'**.
 
 
-### Riemann Integration
+### Definition
 
-Let us consider a function <img src="https://latex.codecogs.com/svg.latex?f" title="f" />, and we would like to compute the area under this graph. To this, we create small rectangles below this graph, and sum up all rectangles as the number of rectangles approaches infinity. This is our regular integration. However, this type of integration has its own sets of limitations:
-* It is very difficult to extend to **higher dimensions**. To approximate the volume of a surface, we could use cuboids instead of rectangles, but for 4D, visualization of this integration becomes increasingly difficult.
-* The second shortcoming is some assumption of continuity. It is extremely ill suited for step functions. A function is Riemann Integrable if it's discontinuity set has a measure 0. In the scenario when we need to integrate over all real numbers where each rational number has a score 0 and each irrational number has a score 1. Since the discontinuity set although less, is still infinity, the measure is not 0, and is not Riemann Integrable.
 
-To overcome these limitations, the French mathematician Henri Lebesgue introduced the concept of Lebesgue integrations.
 
 ### Lebesgue Integration
 
