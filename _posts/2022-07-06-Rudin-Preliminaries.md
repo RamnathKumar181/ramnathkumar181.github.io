@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Preliminaries
+title: The Real and Complex Number Systems
 published: true
 book_title: Real Analysis
 ---
 
-An overview of the chapter “Preliminaries” from the famous books of “[Introduction to Real Analysis](http://www.uop.edu.pk/ocontents/G.%20Bartle%20,%20R.%20Sherbert,%20%E2%80%9CIntroduction%20to%20Real%20Analysis.pdf)” and "[Principles of Mathematical Analysis](https://web.math.ucsb.edu/~agboola/teaching/2021/winter/122A/rudin.pdf)".
+An overview of the chapter "The Real and Complex Number Systems" from the famous books of "[Principles of Mathematical Analysis](https://web.math.ucsb.edu/~agboola/teaching/2021/winter/122A/rudin.pdf)" written by Rudin.
 <!--break-->
-The authors create a brief introduction of the important concepts that help understand real analysis better. All images and tables in this post are from their respective books.
+The authors create a brief introduction of the loopholes of rational numbers, thus introducing real and complex number systems that help fill these holes.
 
-## Introduction
+**P1:** Show that 
 
 AI needs immense amount of knowledge about the world. This can be provided through:
 * <b>Knowledge base (Cyc):</b> An inference engine and a database of statements in a language called CycL. These statements are entered by human supervisors. The main limitation is that people ourselves, struggle to devise formal rules with enough complexity to accurately describe the world.
