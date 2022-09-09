@@ -7,4 +7,4 @@ book_title: Random Processes
 
 An overview of the chapter "A Selective Review of Basic Probability" from the famous books of "[Random Processes for Engineers](http://www.ifp.illinois.edu/~hajek/Papers/randomprocJuly14.pdf)" written by Bruce Hajek.
 <!--break-->
-<embed src="/assets/_pdfs/RandomProcesses/Chapter1.pdf" width="1000" height="1000" type='application/pdf'>
+<embed src="/assets/_pdfs/RandomProcesses/Chapter1.pdf" width="800" height="1000" type='application/pdf'>
