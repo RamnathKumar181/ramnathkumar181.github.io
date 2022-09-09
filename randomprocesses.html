@@ -6,7 +6,7 @@ permalink: /blog/Random%20Processes/
 <div class="posts">
     <ul>
         {% for post in site.posts %}
-            {% if post.book_title == "Real Analysis" %}
+            {% if post.book_title == "Random Processes" %}
                 {% unless post.book%}
                     <li> <span class="small"> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%B %e, %Y" }})</span> </li>
                 {% endunless %}

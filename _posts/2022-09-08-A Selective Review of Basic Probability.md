@@ -9,4 +9,4 @@ An overview of the chapter "A Selective Review of Basic Probability" from the fa
 <!--break-->
 
 
-<object data="{{ site.url }}{{ site.baseurl }}/_pdfs/RandomProcesses/Chapter1.pdf" width="1000" height="1000" type="application/pdf"></object>
+<object data="{{ site.url }}{{ site.baseurl }}/assets/_pdfs/RandomProcesses/Chapter1.pdf" width="1000" height="1000" type="application/pdf"></object>
