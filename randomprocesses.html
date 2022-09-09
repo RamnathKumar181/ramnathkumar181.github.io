@@ -8,7 +8,7 @@ permalink: /blog/Random%20Processes/
         {% for post in site.posts %}
             {% if post.book_title == "Random Processes" %}
                 {% unless post.book%}
-                    <li> <span class="small"> <a href="{{ site.baseurl }}{{ post.path_to_pdf }}">{{ post.title }}</a> ({{ post.date | date: "%B %e, %Y" }})</span> </li>
+                    <li> <span class="small"> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%B %e, %Y" }})</span> </li>
                 {% endunless %}
             {% endif %}
   {% endfor %}
