@@ -3,8 +3,5 @@ layout: post
 title: A Selective Review of Basic Probability
 published: true
 book_title: Random Processes
+path_to_pdf: /assets/Books/Random_Processes/Chapter1.pdf
 ---
-
-An overview of the chapter "A Selective Review of Basic Probability" from the famous books of "[Random Processes for Engineers](http://www.ifp.illinois.edu/~hajek/Papers/randomprocJuly14.pdf)" written by Bruce Hajek.
-<!--break-->
-<embed src="/assets/Books/Random_Processes/Chapter1.pdf" width="800" height="1000" type='application/pdf'>
