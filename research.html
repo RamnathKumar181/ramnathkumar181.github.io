@@ -4,8 +4,17 @@ permalink: /publications/
 ---
 
 <div class="posts">
-
+  {% assign prev_year = nil %}
   {% for paper in site.research reversed %}
+  {% capture curr_year %}{{ paper.year }}{% endcapture %}
+  {% if prev_year != curr_year %}
+  {% if prev_year %}
+  </div> <!-- end of papers for previous year -->
+  {% endif %}
+  <h2 class="year">{{ curr_year }}</h2>
+  <div class="papers"> <!-- start papers for current year -->
+  {% endif %}
+
     <article class="post">
       <div class="col-sm2 abbr">
           {{ paper.badges }}
@@ -22,5 +31,29 @@ permalink: /publications/
           {{ paper.links }}
       </div>
     </article>
+    {% assign prev_year = curr_year %}
   {% endfor %}
+  {% if prev_year %}
+    </div> <!-- end of papers for last year -->
+  {% endif %}
+
+
+  <!-- {% for paper in site.research reversed %}
+    <article class="post">
+      <div class="col-sm2 abbr">
+          {{ paper.badges }}
+      </div>
+      <h3>{{ paper.title }}</h3>
+      <div class="author">
+          {{ paper.authors }}
+      </div>
+      <div class="periodical">
+          {{ paper.periodical }}
+      </div>
+      <br>
+      <div class=links>
+          {{ paper.links }}
+      </div>
+    </article>
+  {% endfor %} -->
 </div>
