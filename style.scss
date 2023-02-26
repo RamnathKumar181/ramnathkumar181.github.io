@@ -286,23 +286,30 @@ nav {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem; }
 
+
 .abbr {
-    height: 2rem;
-        margin-bottom: 0.5rem;
-        abbr {
-          display: inline-block;
-          background-color: #00369f;
-          padding-left: 1rem;
-          padding-right: 1rem;
-          a {
-            color: white;
-            &:hover {
-              text-decoration: none;
-            }
-          }
-    }}
+  height: 2rem;
+  margin-bottom: 0.5rem;
+  abbr {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    a {
+      color: white;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
 
+.abbr .badge {
+  background-color: #00369f;
+}
 
+.abbr .award {
+  background-color: #efcc00;
+}
 
 .badge {
   color: #fff;
@@ -319,20 +326,68 @@ nav {
 }
 
 .award {
-    height: 2rem;
-        margin-bottom: 0.5rem;
-        abbr {
-          display: inline-block;
-          background-color: #efcc00;
-          padding-left: 1rem;
-          padding-right: 1rem;
-          a {
-            color: white;
-            &:hover {
-              text-decoration: none;
-            }
-          }
-    }}
+  height: 2rem;
+  margin-bottom: 0.5rem;
+  abbr {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    a {
+      color: white;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+    
+// .abbr {
+//     height: 2rem;
+//         margin-bottom: 0.5rem;
+//         abbr {
+//           display: inline-block;
+//           background-color: #00369f;
+//           padding-left: 1rem;
+//           padding-right: 1rem;
+//           a {
+//             color: white;
+//             &:hover {
+//               text-decoration: none;
+//             }
+//           }
+//     }}
+
+
+
+// .badge {
+//   color: #fff;
+//   display: inline-block;
+//   padding: 0.25em 0.4em;
+//   font-size: 75%;
+//   font-weight: 700;
+//   line-height: 1;
+//   text-align: center;
+//   white-space: nowrap;
+//   vertical-align: baseline;
+//   border-radius: 0.25rem;
+//   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+// }
+
+// .award {
+//     height: 2rem;
+//         margin-bottom: 0.5rem;
+//         abbr {
+//           display: inline-block;
+//           background-color: #efcc00;
+//           padding-left: 1rem;
+//           padding-right: 1rem;
+//           a {
+//             color: white;
+//             &:hover {
+//               text-decoration: none;
+//             }
+//           }
+//     }}
 
 footer {
   padding: 20px 0;
