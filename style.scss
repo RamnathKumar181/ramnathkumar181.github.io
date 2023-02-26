@@ -302,6 +302,23 @@ nav {
           }
     }}
 
+.abbr_award {
+  height: 2rem;
+      margin-bottom: 0.5rem;
+      abbr {
+        display: inline-block;
+        background-color: #9f0005;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        a {
+          color: white;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+  }}
+
+
 .badge {
   color: #fff;
   display: inline-block;
