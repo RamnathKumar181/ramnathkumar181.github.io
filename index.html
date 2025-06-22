@@ -22,48 +22,53 @@ Previously, I worked as a consultant at <a href=https://mila.quebec/en/>Mila - Q
 My research interests broadly cover <b>deep learning</b>, focusing on designing <b>robust</b> and <b>efficient</b> techniques for practical deep learning systems. As machine learning continues to expand into real-world applications, ensuring models are both robust and efficient have become more critical than ever. In my free time, I enjoy gaming, badminton and swimming.
 </p>
 
-
-<div class="quote-footer">
+<div class="quote-section">
   <blockquote>
+    <span class="quote-mark">“</span>
     Nothing accelerates learning like coevolving adversaries.
+    <span class="quote-mark">”</span>
   </blockquote>
 </div>
 
 <style>
-  .quote-footer {
+  .quote-section {
+    width: 100%;
+    background: linear-gradient(90deg, #0f0f0f, #1a1a1a);
+    padding: 4rem 2rem;
+    box-sizing: border-box;
     text-align: center;
-    padding: 2rem 1rem;
-    background-color: #0f0f0f;
-    color: #ccc;
-    font-family: 'Georgia', serif;
-    border-top: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .quote-footer blockquote {
+  .quote-section blockquote {
+    font-family: 'Merriweather', serif;
     font-style: italic;
-    font-size: 1.4rem;
+    font-size: 2rem;
     line-height: 1.6;
-    letter-spacing: 0.5px;
-    max-width: 800px;
+    color: #ccc;
+    max-width: 1200px;
     margin: 0 auto;
     position: relative;
+    padding: 1rem 2rem;
   }
 
-  .quote-footer blockquote::before {
-    content: "“";
-    font-size: 2.5rem;
-    position: absolute;
-    left: -1.5rem;
-    top: -1rem;
+  .quote-section .quote-mark {
+    font-size: 3rem;
     color: #888;
+    vertical-align: middle;
+    margin: 0 0.3rem;
   }
 
-  .quote-footer blockquote::after {
-    content: "”";
-    font-size: 2.5rem;
-    position: absolute;
-    right: -1.5rem;
-    bottom: -1rem;
-    color: #888;
+  @media (max-width: 768px) {
+    .quote-section blockquote {
+      font-size: 1.4rem;
+      padding: 1rem;
+    }
+
+    .quote-section .quote-mark {
+      font-size: 2rem;
+    }
   }
 </style>
