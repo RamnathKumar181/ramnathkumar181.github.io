@@ -1,5 +1,5 @@
 ---
-title: 	Introspective Experience Replay; Look Back When Surprised
+title: 	"Introspective Experience Replay: Look Back When Surprised"
 published: true
 badges: <abbr class="badge">TMLR</abbr> <abbr class="blog_coverage">Blog Coverage</abbr>
 authors: <a href="https://ramnathkumar181.github.io/"><strong>Ramnath Kumar</strong></a> and <a href="https://dheerajnagaraj.com/">Dheeraj Nagaraj</a>.
